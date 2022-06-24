@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 80%;
+}
+
+body{
+    background-image: url(AAAABZsxgkO3bTRBzokUs4Guz32G7Ab1mhB0EEvbBZGSA9hEVirf0JORTZ8Ll4KiGwL2s955-59bsNPPesZJF0jWXHSbzv9WFEIPTiXpSkVAh0D-qngyRD4EhRpN5gcrV0jFDQ20yAS7-y1KW4K_7WnG.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background: linear-gradient(to bottom, transparent 8vh);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 780px;
+    width: 500px;
+}
+
+#nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 150%;
+    list-style:none;
+
+    padding: 5rem;
+    margin: 3rem;
+    font-size: 1.9rem;
+    background-color: none;
+    color: rgb(245, 245, 245);
+    position: relative;
+}
+
+
+.enlaces{
+   color:white;
+   text-decoration: none;
+   text-shadow:color #faf7f7; 
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25rem;
+    position:relative;
+}
+
+.pelicula{
+    display:flex;
+    padding:0rem;
+    height: 180px;
+    object-fit:cover;
+    flex-direction: row;
+    
+}
+
+#clases_texto{
+    vertical-align:0rem;
+}
+
+.clase-h1{
+    font-size: 30px;
+    text-align:initial;
+    bottom: -2rem;
+
+}
+
+.clase-h2{
+    font-size: 25px;
+    text-align:initial;
+}
+.clase-p1{
+    font-size: 20px;
+    text-align: initial;
+}
+
